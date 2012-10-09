@@ -1,0 +1,10 @@
+irb
+
+bell = {a=>2}
+def bell.ring
+puts "x X"
+end
+
+
+bell.ring
+x x
