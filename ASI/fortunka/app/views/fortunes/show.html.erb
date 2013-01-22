@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Dowcip: </b>
+  <%= @fortune.quotation %>
+</p>
+
+<p>
+  <b>Przeslal: </b>
+  <%= @fortune.source %>
+</p>
+
+
+<%= link_to 'Edytuj', edit_fortune_path(@fortune) %> |
+<%= link_to 'Cofnij', fortunes_path %>
